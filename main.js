@@ -13,7 +13,7 @@ for (let i = 0; i < allLinks.length; i++) {
          views[i].style.display='none';    
         }
 
-    let id=`#${this.getAttribut("href")}`;
+    let id=`#${this.getAttribute("href")}`;
     document.querySelector(id).style.display="block";
     
   }
